@@ -1,0 +1,27 @@
+cat > .gitignore << 'EOF'
+# Nuxt
+.nuxt
+.output
+.data
+.env
+.cache
+
+# Node
+node_modules
+npm-debug.log*
+
+# Build
+dist
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+EOF
